@@ -23,8 +23,9 @@ When the app is launched for the first time, the onboarding screen is displayed.
 ## Screenshots
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/Bhavyansh03-tech/Camera_App/assets/96388594/1d6b08a2-14b0-4b94-9af1-f0a759c360f4" alt="First Flow Row" style="width: 200px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/Bhavyansh03-tech/Camera_App/assets/96388594/ae842918-4ca9-4ac8-92ae-ae9ee69e8222" alt="Second Flow Row" style="width: 200px; height: auto;">
+    <img src="https://github.com/Bhavyansh03-tech/Camera_App/assets/96388594/1d6b08a2-14b0-4b94-9af1-f0a759c360f4" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/Bhavyansh03-tech/Onboarding_Screen/assets/96388594/e76effd4-d7e3-44c9-9945-4ae2f89adc23" alt="Second Screenshot" style="width: 200px; height: auto;">
+    <img src="https://github.com/Bhavyansh03-tech/Onboarding_Screen/assets/96388594/e76effd4-d7e3-44c9-9945-4ae2f89adc23" alt="Second Screenshot" style="width: 200px; height: auto;">
 </div>
 
 
