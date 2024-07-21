@@ -20,16 +20,9 @@ When the app is launched for the first time, the onboarding screen is displayed.
 
 ## Screenshots
 
-### Dark Mode :
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/user-attachments/assets/3a59f7f4-39e0-4da4-8239-71aea389eb71" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/d08acb33-87b1-47f8-b271-a14de9e0392e" alt="Second Screenshot" style="width: 200px; height: auto;">
-</div>
-
-### Light Mode :
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/user-attachments/assets/f16a180a-2b9b-4c75-8913-7de66c2e469e" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/77c29526-e106-4104-a1f8-b84c888c69cb" alt="Second Screenshot" style="width: 200px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/f9f3646c-ec2b-4bce-8d36-020a2daac7f3" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/b90869e5-a67d-43e2-a0ba-86124936398a" alt="Second Screenshot" style="width: 200px; height: auto;">
 </div>
 
 ## Technologies Used
