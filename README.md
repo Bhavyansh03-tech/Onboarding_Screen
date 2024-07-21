@@ -18,15 +18,19 @@ This project demonstrates the implementation of an onboarding screen in an Andro
 
 When the app is launched for the first time, the onboarding screen is displayed. Once the user completes the onboarding process, an entry is saved using DataStore. On subsequent launches, the app will check this entry and decide whether to show the onboarding screen again.
 
-
-
 ## Screenshots
 
+### Dark Mode :
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="https://github.com/Bhavyansh03-tech/Onboarding_Screen/assets/96388594/e76effd4-d7e3-44c9-9945-4ae2f89adc23" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
-    <img src="https://github.com/Bhavyansh03-tech/Onboarding_Screen/assets/96388594/1802062a-0839-4714-8099-93b34da03060" alt="Second Screenshot" style="width: 200px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/3a59f7f4-39e0-4da4-8239-71aea389eb71" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/d08acb33-87b1-47f8-b271-a14de9e0392e" alt="Second Screenshot" style="width: 200px; height: auto;">
 </div>
 
+### Light Mode :
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://github.com/user-attachments/assets/f16a180a-2b9b-4c75-8913-7de66c2e469e" alt="First Screenshot" style="width: 200px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/77c29526-e106-4104-a1f8-b84c888c69cb" alt="Second Screenshot" style="width: 200px; height: auto;">
+</div>
 
 ## Technologies Used
 
