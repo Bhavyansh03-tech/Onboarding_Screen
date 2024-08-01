@@ -1,6 +1,7 @@
 package com.example.onboardingscreen.data.manager
 
 import android.content.Context
+import android.util.Log
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
@@ -16,16 +17,20 @@ class LocalUserManagerImpl(
     private val context: Context
 ) : LocalUserManager {
     override suspend fun saveAppEntry() {
+        Log.d("LocalUserManager", "Saving app entry status to true")
         context.dataStore.edit { settings ->
             settings[PreferencesKeys.APP_ENTRY] = true // Store the value in DataStore
         }
     }
 
     override fun readAppEntry(): Flow<Boolean> {
-        // Read the value from DataStore :->
-        return context.dataStore.data.map { preferences ->
-            preferences[PreferencesKeys.APP_ENTRY] ?: false
-        }
+        Log.d("LocalUserManager", "Reading app entry status")
+        return context.dataStore.data
+            .map { preferences ->
+                val appEntry = preferences[PreferencesKeys.APP_ENTRY] ?: false
+                Log.d("LocalUserManager", "App entry status: $appEntry")
+                appEntry
+            }
     }
 }
 

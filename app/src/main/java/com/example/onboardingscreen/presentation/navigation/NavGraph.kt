@@ -12,6 +12,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
+import com.example.onboardingscreen.presentation.navigation.screenNames.HomeScreen
+import com.example.onboardingscreen.presentation.navigation.screenNames.OnboardingScreen
 import com.example.onboardingscreen.presentation.onboarding.OnBoardingScreen
 import com.example.onboardingscreen.presentation.onboarding.viewModel.OnboardingViewModel
 import com.example.onboardingscreen.presentation.navigation.screenNames.Screens
@@ -27,9 +29,9 @@ fun NavGraph(
         startDestination = startDestination
     ) {
         navigation<Screens.AppStartNavigation>(
-            startDestination = Screens.OnboardingScreen
+            startDestination = OnboardingScreen
         ){
-            composable<Screens.OnboardingScreen>{
+            composable<OnboardingScreen>{
                 // Initializing the view model :->
                 val viewModel = hiltViewModel<OnboardingViewModel>()
 
@@ -41,9 +43,9 @@ fun NavGraph(
         }
 
         navigation<Screens.HomeNavigator>(
-            startDestination = Screens.HomeScreen
+            startDestination = HomeScreen
         ){
-            composable<Screens.HomeScreen>{
+            composable<HomeScreen>{
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center

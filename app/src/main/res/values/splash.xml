@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Splash.OnboardingScreen" parent="Theme.OnboardingScreen">
+    <style name="Theme.Splash.OnboardingScreen" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/white</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>

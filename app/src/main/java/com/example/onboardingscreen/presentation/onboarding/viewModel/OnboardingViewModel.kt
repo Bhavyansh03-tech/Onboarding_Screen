@@ -1,5 +1,6 @@
 package com.example.onboardingscreen.presentation.onboarding.viewModel
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.onboardingscreen.domain.useCases.AppEntryUseCases
@@ -22,6 +23,7 @@ class OnboardingViewModel @Inject constructor(
 
     private fun saveAppEntry(){
         viewModelScope.launch {
+            Log.d("OnboardingViewModel", "Saving app entry status")
             appEntryUseCases.saveAppEntry()
         }
     }
